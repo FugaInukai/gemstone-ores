@@ -4,9 +4,17 @@
     {
       "type": "minecraft:count",
       "count": {
-        "type": "minecraft:binomial",
-        "n": 4,
-        "p": 0.6
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": 2,
+            "weight": 3
+          },
+          {
+            "data": 3,
+            "weight": 2
+          }
+        ]
       }
     },
     {

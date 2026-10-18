@@ -1,5 +1,6 @@
 {
   "item.gemstone_ores.ruby": "ルビーの原石",
+  "tag.item.gemstone_ores.repairs_ruby": "ルビー装備の修理素材",
   "item.gemstone_ores.ruby_sword": "ルビーの剣",
   "item.gemstone_ores.ruby_pickaxe": "ルビーのツルハシ",
   "item.gemstone_ores.ruby_axe": "ルビーの斧",
@@ -13,6 +14,7 @@
   "block.gemstone_ores.deepslate_ruby_ore": "深層ルビー鉱石",
   "block.gemstone_ores.ruby_block": "ルビーブロック",
   "item.gemstone_ores.sapphire": "サファイアの原石",
+  "tag.item.gemstone_ores.repairs_sapphire": "サファイア装備の修理素材",
   "item.gemstone_ores.sapphire_sword": "サファイアの剣",
   "item.gemstone_ores.sapphire_pickaxe": "サファイアのツルハシ",
   "item.gemstone_ores.sapphire_axe": "サファイアの斧",
@@ -26,6 +28,7 @@
   "block.gemstone_ores.deepslate_sapphire_ore": "深層サファイア鉱石",
   "block.gemstone_ores.sapphire_block": "サファイアブロック",
   "item.gemstone_ores.emerald": "エメラルドの原石",
+  "tag.item.gemstone_ores.repairs_emerald": "エメラルド装備の修理素材",
   "item.gemstone_ores.emerald_sword": "エメラルドの剣",
   "item.gemstone_ores.emerald_pickaxe": "エメラルドのツルハシ",
   "item.gemstone_ores.emerald_axe": "エメラルドの斧",
@@ -39,6 +42,7 @@
   "block.gemstone_ores.deepslate_emerald_ore": "深層エメラルド鉱石",
   "block.gemstone_ores.emerald_block": "エメラルドブロック",
   "item.gemstone_ores.amethyst": "アメジストの原石",
+  "tag.item.gemstone_ores.repairs_amethyst": "アメジスト装備の修理素材",
   "item.gemstone_ores.amethyst_sword": "アメジストの剣",
   "item.gemstone_ores.amethyst_pickaxe": "アメジストのツルハシ",
   "item.gemstone_ores.amethyst_axe": "アメジストの斧",
@@ -50,5 +54,6 @@
   "item.gemstone_ores.amethyst_boots": "アメジストのブーツ",
   "block.gemstone_ores.amethyst_ore": "アメジスト鉱石",
   "block.gemstone_ores.deepslate_amethyst_ore": "深層アメジスト鉱石",
-  "block.gemstone_ores.amethyst_block": "アメジストブロック"
+  "block.gemstone_ores.amethyst_block": "アメジストブロック",
+  "tag.item.gemstone_ores.gems": "宝石の原石"
 }

@@ -4,7 +4,6 @@ Usage: python tools/generate_resources.py /path/to/minecraft-client.jar
 Requires Pillow. The client JAR is never included in this repository.
 """
 from pathlib import Path
-import copy
 import io
 import json
 import sys
@@ -72,6 +71,8 @@ def main(jar):
             gems.append(gem_id)
             ja[f'item.{MOD}.{gem}'] = f'{jp}の原石'
             en[f'item.{MOD}.{gem}'] = f'{gem.title()} Gem'
+            ja[f'tag.item.{MOD}.repairs_{gem}'] = jp + '装備の修理素材'
+            en[f'tag.item.{MOD}.repairs_{gem}'] = gem.title() + ' Equipment Repair Materials'
             write(f'assets/{MOD}/models/item/{gem}.json', {'parent': 'minecraft:item/generated', 'textures': {'layer0': f'{MOD}:item/{gem}'}})
             write(f'assets/{MOD}/items/{gem}.json', {'model': {'type': 'minecraft:model', 'model': f'{MOD}:item/{gem}'}})
             tint(z, 'item/diamond', f'item/{gem}', color)
@@ -132,7 +133,9 @@ def main(jar):
                 placed['feature'] = f'{MOD}:{new_configured}'
                 for modifier in placed['placement']:
                     if modifier['type'] == 'minecraft:count':
-                        modifier['count'] = {'type': 'minecraft:binomial', 'n': modifier['count'] * 2, 'p': 0.6}
+                        low, remainder = divmod(modifier['count'] * 6, 5)
+                        modifier['count'] = {'type': 'minecraft:weighted_list', 'distribution': [
+                            {'data': low, 'weight': 5 - remainder}, {'data': low + 1, 'weight': remainder}]}
                     elif modifier['type'] == 'minecraft:rarity_filter':
                         modifier['chance'] = 7  # Vanilla large diamonds: 1/9. Here: 1/7.
                 write(f'data/{MOD}/worldgen/placed_feature/{placed_name.replace("diamond", gem)}.json', placed)
@@ -140,6 +143,8 @@ def main(jar):
         tag('minecraft', 'block', 'needs_iron_tool', ores)
         tag('minecraft', 'block', 'needs_stone_tool', [b for b in blocks if b.endswith('_block')])
         tag(MOD, 'item', 'gems', gems)
+        ja[f'tag.item.{MOD}.gems'] = '宝石の原石'
+        en[f'tag.item.{MOD}.gems'] = 'Gemstones'
         equipment_tags = {'sword': 'swords', 'pickaxe': 'pickaxes', 'axe': 'axes', 'shovel': 'shovels',
                           'hoe': 'hoes', 'helmet': 'head_armor', 'chestplate': 'chest_armor',
                           'leggings': 'leg_armor', 'boots': 'foot_armor'}
