@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "gemstone_ores:emerald_block"
+  ],
+  "result": {
+    "id": "gemstone_ores:emerald",
+    "count": 9
+  }
+}

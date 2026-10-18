@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "gemstone_ores:deepslate_sapphire_ore",
+  "result": {
+    "id": "gemstone_ores:sapphire"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

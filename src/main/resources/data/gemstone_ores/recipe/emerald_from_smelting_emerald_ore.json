@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "gemstone_ores:emerald_ore",
+  "result": {
+    "id": "gemstone_ores:emerald"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

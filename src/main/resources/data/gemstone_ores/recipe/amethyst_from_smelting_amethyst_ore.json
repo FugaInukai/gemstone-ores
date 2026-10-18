@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "gemstone_ores:amethyst_ore",
+  "result": {
+    "id": "gemstone_ores:amethyst"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

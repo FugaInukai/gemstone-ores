@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "gemstone_ores:ruby_ore",
+  "result": {
+    "id": "gemstone_ores:ruby"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

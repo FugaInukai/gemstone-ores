@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gemstone_ores:block/ruby_ore"
+    }
+  }
+}

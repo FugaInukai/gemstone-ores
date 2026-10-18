@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "gemstone_ores:amethyst"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "gemstone_ores:amethyst"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": "gemstone_ores:deepslate_ruby_ore",
+  "result": {
+    "id": "gemstone_ores:ruby"
+  },
+  "experience": 1.0,
+  "cookingtime": 100
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "gemstone_ores:ruby_block",
+    "gemstone_ores:sapphire_block",
+    "gemstone_ores:emerald_block",
+    "gemstone_ores:amethyst_block"
+  ]
+}

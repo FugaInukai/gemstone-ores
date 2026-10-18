@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "gemstone_ores:sapphire_block"
+  ],
+  "result": {
+    "id": "gemstone_ores:sapphire",
+    "count": 9
+  }
+}

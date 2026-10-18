@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "gemstone_ores:amethyst_block"
+  ],
+  "result": {
+    "id": "gemstone_ores:amethyst",
+    "count": 9
+  }
+}

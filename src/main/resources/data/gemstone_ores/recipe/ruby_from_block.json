@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "gemstone_ores:ruby_block"
+  ],
+  "result": {
+    "id": "gemstone_ores:ruby",
+    "count": 9
+  }
+}

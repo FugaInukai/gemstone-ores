@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "gemstone_ores:ruby"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "gemstone_ores:ruby"
+      }
+    ]
+  }
+}

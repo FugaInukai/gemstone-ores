@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "gemstone_ores:ruby_ore",
+    "gemstone_ores:deepslate_ruby_ore",
+    "gemstone_ores:ruby_block",
+    "gemstone_ores:sapphire_ore",
+    "gemstone_ores:deepslate_sapphire_ore",
+    "gemstone_ores:sapphire_block",
+    "gemstone_ores:emerald_ore",
+    "gemstone_ores:deepslate_emerald_ore",
+    "gemstone_ores:emerald_block",
+    "gemstone_ores:amethyst_ore",
+    "gemstone_ores:deepslate_amethyst_ore",
+    "gemstone_ores:amethyst_block"
+  ]
+}
