@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "gemstone_ores",
+  "version": "${version}",
+  "name": "Gemstone Ores",
+  "description": "Four colorful underground gems with iron-tier equipment.",
+  "authors": ["FugaInukai"],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {"main": ["dev.fugainukai.gemstones.GemstoneOres"]},
+  "depends": {"fabricloader": ">=0.19.5", "minecraft": "26.2", "java": ">=25", "fabric-api": "*"}
+}
