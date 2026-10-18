@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "gemstone_ores:ruby_pickaxe",
+    "gemstone_ores:sapphire_pickaxe",
+    "gemstone_ores:emerald_pickaxe",
     "gemstone_ores:amethyst_pickaxe"
   ]
 }

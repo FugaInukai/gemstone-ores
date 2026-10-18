@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "gemstone_ores:ruby_chestplate",
+    "gemstone_ores:sapphire_chestplate",
+    "gemstone_ores:emerald_chestplate",
+    "gemstone_ores:amethyst_chestplate"
+  ]
+}

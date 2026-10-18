@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "gemstone_ores:ruby_hoe",
+    "gemstone_ores:sapphire_hoe",
+    "gemstone_ores:emerald_hoe",
     "gemstone_ores:amethyst_hoe"
   ]
 }

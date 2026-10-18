@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "gemstone_ores:ruby_axe",
+    "gemstone_ores:sapphire_axe",
+    "gemstone_ores:emerald_axe",
     "gemstone_ores:amethyst_axe"
   ]
 }

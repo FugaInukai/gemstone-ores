@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "gemstone_ores:ruby_leggings",
+    "gemstone_ores:sapphire_leggings",
+    "gemstone_ores:emerald_leggings",
+    "gemstone_ores:amethyst_leggings"
+  ]
+}

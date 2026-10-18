@@ -88,8 +88,6 @@ def main(jar):
                 recipe(name, replace_tree(vanilla, {'#minecraft:iron_tool_materials': gem_id,
                     '#minecraft:iron_armor_materials': gem_id, 'minecraft:iron_ingot': gem_id,
                     f'minecraft:iron_{suffix}': f'{MOD}:{name}'}), gem_id)
-                tag('minecraft', 'item', suffix + 's' if suffix not in ['boots', 'leggings'] else suffix,
-                    [f'{MOD}:{name}'])
             for layer in ['humanoid', 'humanoid_leggings']:
                 tint(z, f'entity/equipment/{layer}/iron', f'entity/equipment/{layer}/{gem}', color)
             write(f'assets/{MOD}/equipment/{gem}.json', {'layers': {
@@ -142,6 +140,11 @@ def main(jar):
         tag('minecraft', 'block', 'needs_iron_tool', ores)
         tag('minecraft', 'block', 'needs_stone_tool', [b for b in blocks if b.endswith('_block')])
         tag(MOD, 'item', 'gems', gems)
+        equipment_tags = {'sword': 'swords', 'pickaxe': 'pickaxes', 'axe': 'axes', 'shovel': 'shovels',
+                          'hoe': 'hoes', 'helmet': 'head_armor', 'chestplate': 'chest_armor',
+                          'leggings': 'leg_armor', 'boots': 'foot_armor'}
+        for suffix, name in equipment_tags.items():
+            tag('minecraft', 'item', name, [f'{MOD}:{gem}_{suffix}' for gem in GEMS])
         for lang, values in [('ja_jp', ja), ('en_us', en)]:
             write(f'assets/{MOD}/lang/{lang}.json', values)
     print('Generated resources for four gems.')

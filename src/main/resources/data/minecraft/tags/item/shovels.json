@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "gemstone_ores:ruby_shovel",
+    "gemstone_ores:sapphire_shovel",
+    "gemstone_ores:emerald_shovel",
     "gemstone_ores:amethyst_shovel"
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "gemstone_ores:ruby_helmet",
+    "gemstone_ores:sapphire_helmet",
+    "gemstone_ores:emerald_helmet",
+    "gemstone_ores:amethyst_helmet"
+  ]
+}

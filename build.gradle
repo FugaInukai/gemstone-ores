@@ -17,3 +17,12 @@ java {
     targetCompatibility = JavaVersion.VERSION_25
 }
 jar { from('LICENSE') }
+
+fabricApi {
+    configureTests {
+        createSourceSet = true
+        modId = 'gemstone_ores_test'
+        enableGameTests = false
+        enableClientGameTests = true
+    }
+}
